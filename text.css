@@ -9,10 +9,29 @@
 ----------------------------------------------------------------------------------------------------*/
 
 body {
-  font: 18px/1.5 'Gentium Book Basic', "serif";
+  font: 18px 'Gentium Book Basic', "serif";
   font-style: normal;
   font-weight: 400;
   color: rgb(68, 68, 68);
+}
+
+.post-title{
+  font-family: 'Libre Baskerville', 'serif';
+  font-style: italic;
+  color: #2b3542;
+  font-size: 2.25em;
+  line-height: 120%;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  overflow-wrap: break-word;
+  font-weight: 400;
+  box-shadow: 0 1px 4px rgba(0,0,0,.1);
+
+}
+
+.post-content p{
+  line-height: 180%;
+  overflow: break-word;
 }
 
 .site-title{
@@ -21,11 +40,28 @@ body {
   font-size: 2.25em;
   font-style: italic;
   font-weight: 400;
+  margin: 0;
+  line-height: 1;
+
 }
 
 .site-title a{
-  color: rgb(31,199,170);
+  color:  rgb(255, 255, 255);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 2px;
+  transition-delay: 0s, 0s;
+  transition-duration: 0.2s;
+  transition-property: color, background-color, left, right, opacity;
+  transition-timing-function: ease-in-out;
+  position:relative;
 }
+
+.main-navigation{
+  font-size: 0.9em;
+  color: rgb(68.68.68);
+}
+
 
 pre,
 code {
