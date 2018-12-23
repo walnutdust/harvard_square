@@ -24,6 +24,7 @@ header{
   margin-right: auto;
   max-width: 90%;
   width: 1400px;
+  position: relative;
 }
 
 header h1{
