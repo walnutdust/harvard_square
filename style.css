@@ -22,6 +22,16 @@ header{
   margin: 0 auto;
 }
 
+.image {
+  float: left;
+  margin-bottom: 1.2em;
+  margin-right: 1em;
+  line-height: 1;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
 #primary-menu{
   line-height: 1;
   list-style-position: outside;
@@ -36,6 +46,7 @@ header{
   box-sizing: border-box;
   display: block;
 }
+
 
 #header-title{
   box-sizing: border-box;

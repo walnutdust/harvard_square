@@ -18,16 +18,24 @@ body {
 .post-title{
   font-family: 'Libre Baskerville', 'serif';
   font-style: italic;
-  color: #2b3542;
+  overflow-wrap: break-word;
   font-size: 2.25em;
+  box-shadow: 0 1px 4px rgba(0,0,0,.1);
+}
+
+.post-title a{
+  color: #2b3542;
   line-height: 120%;
   text-decoration-line: none;
   text-decoration-style: solid;
-  overflow-wrap: break-word;
   font-weight: 400;
-  box-shadow: 0 1px 4px rgba(0,0,0,.1);
-
+  transition: color 0.2s ease-in-out 0s;
 }
+
+.post-title a:hover, .post-title a:focus{
+  color: rgb(19, 196, 165);
+}
+
 
 .post-content p{
   line-height: 180%;
@@ -50,12 +58,15 @@ body {
   text-decoration-line: none;
   text-decoration-style: solid;
   text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 2px;
-  transition-delay: 0s, 0s;
-  transition-duration: 0.2s;
-  transition-property: color, background-color, left, right, opacity;
-  transition-timing-function: ease-in-out;
+  transition: color 0.2s ease-in-out 0s;
+  -webkit-transition: color 0.2s ease-in-out 0s;
   position:relative;
 }
+
+.site-title a:hover, .site-title a:focus{
+  color: rgb(19, 196, 165);
+}
+
 
 .main-navigation{
   font-size: 0.9em;
