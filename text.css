@@ -22,6 +22,10 @@ body {
   font-weight: 400;
 }
 
+.site-title a{
+  color: rgb(31,199,170);
+}
+
 pre,
 code {
   font-family: "DejaVu Sans Mono", Menlo, Consolas, monospace;
