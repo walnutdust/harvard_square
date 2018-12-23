@@ -47,9 +47,106 @@ header{
   display: block;
 }
 
+#footer{
+  margin: 0 auto;
+  background-color: #262626;
+  box-sizing: border-box;
+  overflow: auto;
+  font-size: 18px;
+}
+
+#footer-content{
+  width: 1400px;
+  max-width: 90%;
+  margin: 0 auto;
+  font-size: 0.95em;
+}
+
+.column{
+  width: 30%;
+  padding: 60px 0;
+  margin: 0;
+  float: left;
+  overflow-wrap: break-word;
+}
 
 #header-title{
   box-sizing: border-box;
+}
+
+.one-third{
+    margin-left: 5%;
+}
+
+.column_nav ul li{
+  line-height: 130%;
+  margin-top: 10px;
+  padding: 1px 0 1px 14px;
+  position: relative;
+  margin-left: 0;
+}
+
+.button{
+  background-color: #2ea2cc;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 0 6px 0 4px;
+  color: #fff;
+  height: 20px;
+  display: inline-block;
+  line-height: 20px;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  overflow: auto;
+}
+
+#wordpress-logo{
+    position: relative;
+    margin-right: 3px;
+    top: 3px;
+    white-space: nowrap;
+}
+
+.button *{
+  box-sizing: border-box;
+}
+
+.column_nav ul li::before{
+  color: #13c4a5;
+  content: "\00BB";
+  font-size: 18px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.under_widget{
+  padding-top: 40px;
+  border-top: 4px solid #333;
+  margin-top: 40px;
+}
+
+.column_nav ul{
+  list-style-image: none;
+  list-style-type: none;
+  list-style-position: outside;
+  margin: 0;
+}
+
+.credits{
+  background-color: #1d1d1d;
+  position: relative;
+  padding: 40px 0;
+  overflow: auto;
+}
+
+
+.credits-inner{
+  margin: 0 auto;
+  width: 1400px;
+  max-width: 90%;
 }
 
 .main-navigation li::before{
@@ -82,7 +179,12 @@ header{
   letter-spacing: 1px;
   padding: 27px;
   visibility: visible;
-  text-decoration-line: none;s
+  text-decoration-line: none;
+  transition: color 0.2s ease-in-out 0s;
+}
+
+.menu-item a:hover, .menu-item a:focus{
+  color: #fff;
 }
 
 .menu-item{

@@ -37,6 +37,7 @@ body {
 }
 
 
+
 .post-content p{
   line-height: 180%;
   overflow: break-word;
@@ -73,6 +74,10 @@ body {
   color: rgb(68.68.68);
 }
 
+body a{
+  color: #13c4a5;
+  text-decoration: none;
+}
 
 pre,
 code {
@@ -97,9 +102,6 @@ h2 {
   font-size: 23px;
 }
 
-h3 {
-  font-size: 21px;
-}
 
 h4 {
   font-size: 19px;
@@ -145,4 +147,43 @@ address,
 fieldset,
 figure {
   margin-bottom: 20px;
+}
+
+.column-title{
+  color: #fff;
+  font-style: italic;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 0.79em;
+  letter-spacing: 1px;
+}
+
+.credits-left{
+  float: left;
+}
+
+.credits p{
+  margin: 0;
+  line-height: 1;
+  font-size: 0.8rem;
+  color: #767676;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.credits a{
+  color: #ccc;
+  text-decoration-line: none;
+  text-decoration-style: none;
+  transition: text-decoration-line 0.3s ease-in-out 0s;
+}
+
+.credits a:hover, .credits a:focus{
+  text-decoration-line: underline;
+}
+
+.credits-right{
+  float: right;
 }
