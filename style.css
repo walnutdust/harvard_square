@@ -120,6 +120,7 @@ header{
 .credits-inner{
   margin: 0 auto;
   width: 1400px;
+  max-width: 90%;
 }
 
 #site-navigation{
