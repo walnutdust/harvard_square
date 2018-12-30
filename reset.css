@@ -134,6 +134,10 @@ strong {
   font-weight: bold;
 }
 
+p {
+  display: inline;
+}
+
 img {
   color: transparent;
   font-size: 0;

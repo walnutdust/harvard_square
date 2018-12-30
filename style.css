@@ -1,20 +1,27 @@
+.fleft{
+  float: left;
+}
+
+.fright{
+  float: right;
+}
+
+.one-third{
+    margin-left: 5%;
+}
+
 header{
-  margin: 0 auto;
   text-align: center;
-  width: 100%;
   position: relative;
   top: 0px;
-  background-color: white;
   padding-top: 70px;
   padding-bottom: 70px;
-  outline-color: #fff;
+  line-height: 120%;
 }
 
 .bg-image{
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  background-color: #1d1d1d;
 }
 
 .section-inner{
@@ -22,42 +29,29 @@ header{
   margin: 0 auto;
 }
 
-.image {
-  float: left;
+.image{
   margin-bottom: 1.2em;
   margin-right: 1em;
   line-height: 1;
   padding: 5px;
-  box-sizing: border-box;
   font-size: 18px;
+  border: 1px solid #eee;
 }
 
 #primary-menu{
   line-height: 1;
   list-style-position: outside;
   list-style-type: none;
-  text-align: center;
-  list-style-image: none;
-  box-sizing: border-box;
   margin: 0;
 }
 
-.site-title{
-  box-sizing: border-box;
-  display: block;
-}
-
 #footer{
-  margin: 0 auto;
   background-color: #262626;
-  box-sizing: border-box;
   overflow: auto;
-  font-size: 18px;
 }
 
 #footer-content{
   width: 1400px;
-  max-width: 90%;
   margin: 0 auto;
   font-size: 0.95em;
 }
@@ -65,17 +59,7 @@ header{
 .column{
   width: 30%;
   padding: 60px 0;
-  margin: 0;
-  float: left;
-  overflow-wrap: break-word;
-}
-
-#header-title{
-  box-sizing: border-box;
-}
-
-.one-third{
-    margin-left: 5%;
+  margin-bottom: 20px;
 }
 
 .column_nav ul li{
@@ -86,22 +70,25 @@ header{
   margin-left: 0;
 }
 
+.column_nav ul li::before{
+  color: #13c4a5;
+  content: "\00BB";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 .button{
   background-color: #2ea2cc;
   border-radius: 2px;
-  cursor: pointer;
   padding: 0 6px 0 4px;
   color: #fff;
-  height: 20px;
   display: inline-block;
   line-height: 20px;
-  font-style: normal;
   font-family: "Open Sans", sans-serif;
-  font-weight: 700;
   font-size: 10px;
   overflow: hidden;
 }
-
 
 #wordpress-logo{
     position: relative;
@@ -110,18 +97,6 @@ header{
     white-space: nowrap;
 }
 
-.button *{
-  box-sizing: border-box;
-}
-
-.column_nav ul li::before{
-  color: #13c4a5;
-  content: "\00BB";
-  font-size: 18px;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
 
 .under_widget{
   padding-top: 40px;
@@ -130,15 +105,11 @@ header{
 }
 
 .column_nav ul{
-  list-style-image: none;
   list-style-type: none;
-  list-style-position: outside;
-  margin: 0;
 }
 
 .credits{
   background-color: #1d1d1d;
-  position: relative;
   padding: 40px 0;
   overflow: auto;
 }
@@ -147,115 +118,59 @@ header{
 .credits-inner{
   margin: 0 auto;
   width: 1400px;
-  max-width: 90%;
 }
 
 .main-navigation li::before{
   content: "\002F";
-  color: #444;
-  display: block;
   margin-right: -3px;
   margin-top: -9px;
   position: absolute;
   right: 0;
   top: 50%;
   z-index: 1000;
-  font-size: 16px;
-  text-align: center;
-  font-weight: 300;
-  line-height: 1;
 }
 
 .main-navigation li:last-child::before{
   content:none;
 }
 
-.menu-item a{
-  color: rgb(153, 153, 153);
-  box-sizing: border-box;
-  display: block;
-  font-size: 0.85em;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 1px;
-  padding: 27px;
-  visibility: visible;
-  text-decoration-line: none;
-  transition: color 0.2s ease-in-out 0s;
-}
-
-.menu-item a:hover, .menu-item a:focus{
-  color: #fff;
-}
-
-footer a{
-  color: #9499a0;
-  transition: color 0.2s ease-in-out 0s;
-}
-
-footer a:hover, footer a:focus{
-  color: #13c4a5;
-}
-
 .menu-item{
-  float:left;
   margin: 0;
   position: relative;
 }
 
 .navigation{
-  box-sizing: border-box;
   background-color: rgb(29, 29, 29);
-  font-size: 18px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
   height: 68px;
-}
-
-header h1{
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .cover{
   background: rgba(29,29,29,.25);
   position: absolute;
-  right: 0px;
-  top: 0px;
+  right: 0;
+  top: 0;
   left: 0;
   bottom: 0;
 }
 
-.body_wrapper{
+.body-wrapper{
   padding: 60px 0;
   position: relative;
-  box-sizing: border-box;
-}
-
-.inner_section{
-  width: 1400px;
-  max-width: 90%;
-  margin: 0 auto;
 }
 
 #content{
   width: 944px;
   margin: 0 auto;
-  max-width: 100%;
   background-color: #fff;
   border-radius: 3px;
-  overflow: hidden;
-
 }
 
 .post-title{
   padding: 8% 10%;
-  overflow-wrap: auto;
   width: 80%;
   text-align: left;
+  border-bottom: 1px solid #eee;
 }
-
 
 .post-title::before{
   border: 12px solid transparent;
@@ -286,12 +201,14 @@ header h1{
   padding: 10%;
 }
 
-body{
-  background-color: #cec5b0;
+.post-content br{
+  margin-top: 1.1em;
+  display: block;
+  content: "";
 }
 
-#last-edit{
-  margin-bottom: 0;
+body{
+  background-color: #cec5b0;
 }
 
 #meta p{
@@ -302,22 +219,17 @@ body{
   display: inline;
   background: white;
   border: 0;
-  border-bottom: solid 1px skyblue;
   font: 18px/1.5 'Gentium Book Basic', "serif";
   font-weight: 400;
   padding: 0;
   margin: 0;
   color: rgb(68, 68, 68);
+  border-bottom: solid 1px skyblue;
 }
-
 
 .panel{
   display: none;
   padding: 0;
-}
-
-p{
-  display: inline;
 }
 
 footer{
@@ -370,8 +282,6 @@ footer nav::before{
   width: 100%;
   font-family: Arial;
   color: rgba(0, 0, 0, 0.7);
-  font-size: 14px;
-  line-height: 16px;
 }
 
 ::placeholder{
@@ -380,10 +290,6 @@ footer nav::before{
 
 .search{
   width: 40px;
-  float: right;
-  font-size: 0;
-  display: block;
-  overflow: hidden;
 }
 
 .search::before{
