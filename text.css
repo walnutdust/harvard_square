@@ -1,4 +1,6 @@
-body {
+
+
+body{
   font: 18px 'Gentium Book Basic', "serif";
   font-style: normal;
   font-weight: 400;
@@ -105,7 +107,7 @@ footer i.fa{
   left: 0;
 }
 
-footer time, footer p, footer nav{
+footer time, footer p{
   margin-top: 12px;
   margin-bottom: 0;
   padding: 1px 0px 1px 28px;
@@ -121,6 +123,12 @@ footer a{
 
 footer a:hover, footer a:focus{
   color: #13c4a5;
+}
+
+footer nav a{
+  padding: 1px 0;
+  line-height: 135%;
+  display: block;
 }
 
 #respond h3{
@@ -157,4 +165,60 @@ footer a:hover, footer a:focus{
 
 .menu-item a:hover, .menu-item a:focus{
   color: #fff;
+}
+
+#share-this h3{
+  font: 12px "Roboto Slab", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  color: #999;
+  margin-bottom: 1em;
+}
+
+#share-options ul li a, .like-button{
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #777;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #f8f8f8;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .08);
+  line-height: 23px;
+  padding: 1px 8px 0 5px;
+  display: inline-block;
+}
+
+#share-options ul li a span{
+  margin-left: 3px;
+}
+
+#related h3{
+  font: 12px "Roboto Slab", sans-serif;
+  font-weight: 700;
+  color: #999;
+  margin-bottom: 1em;
+  line-height: 1;
+}
+
+#related{
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#related p{
+  color: rgba(68, 68, 68, 0.6);
+  display: block;
+  line-height: 20px;
+}
+
+.trueonethird a{
+  display: block;
+  max-width: 90%;
+}
+
+#blogger-count{
+  font: 11px "Roboto", sans-serif;
+  line-height: 1.6;
 }

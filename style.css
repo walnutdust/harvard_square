@@ -59,7 +59,6 @@ header{
 .column{
   width: 30%;
   padding: 60px 0;
-  margin-bottom: 20px;
 }
 
 .column_nav ul li{
@@ -74,6 +73,7 @@ header{
   color: #13c4a5;
   content: "\00BB";
   position: absolute;
+  font-size: 18px;
   left: 0;
   top: 0;
 }
@@ -88,6 +88,7 @@ header{
   font-family: "Open Sans", sans-serif;
   font-size: 10px;
   overflow: hidden;
+  font-weight: 700;
 }
 
 #wordpress-logo{
@@ -207,6 +208,10 @@ header{
   content: "";
 }
 
+#share-this{
+  margin-top: 2.7em;
+}
+
 body{
   background-color: #cec5b0;
 }
@@ -239,8 +244,13 @@ footer{
   color: #9499a0;
 }
 
+footer #text{
+  vertical-align: bottom;
+}
+
 footer p, footer time{
   display: block;
+  line-height: 1.35em;
 }
 
 footer div{
@@ -250,7 +260,11 @@ footer div{
 footer nav{
   margin-top: 12px;
   padding-top: 20px;
+  padding-left: 28px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.85em;
+  position: relative;
+  font-weight: 700;
 }
 
 footer nav::before{
@@ -295,11 +309,82 @@ footer nav::before{
 .search::before{
   color: rgba(255, 255, 255, 0.5);
   content: "\f002";
-  font-family: FontAwesome;
+  font-family: "FontAwesome";
   font-size: 27px;
   text-align: center;
   text-indent: 0;
   display: block;
   line-height: 68px;
   transition: color 0.2s ease-in-out 0s;
+}
+
+
+.share-twitter::before{
+  content: "\e08d";
+  font-family: "Socicon";
+  display: inline-block;
+  font-size: 15px;
+  position: relative;
+  top: 1px;
+  left: 2px;
+  line-height: 18px;
+}
+
+.share-facebook::before{
+  content: "\e028";
+  font-family: "Socicon";
+  display: inline-block;
+  font-size: 13px;
+  position: relative;
+  top: 1px;
+  left: 2px;
+  line-height: 18px;
+}
+
+.share-google::before{
+  content: "\e038";
+  font-family: "Socicon";
+  display: inline-block;
+  font-size: 15px;
+  position: relative;
+  top: 1px;
+  left: 2px;
+  line-height: 18px;
+}
+
+#share-options ul li{
+  margin: 0 5px 5px 0;
+  line-height: 170%;
+  display: inline-block;
+}
+
+#related{
+  padding-top: 17px;
+  margin: 17px 0;
+  overflow: auto;
+}
+
+.trueonethird{
+  width: 33%;
+  display: block;
+  margin: 0 0 1em 0;
+}
+
+.like-button::before{
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect x='0' fill='none' width='24' height='24'/%3E%3Cg%3E%3Cpath fill='%232ba1cb' d='M12 2l2.582 6.953L22 9.257l-5.822 4.602L18.18 21 12 16.89 5.82 21l2.002-7.14L2 9.256l7.418-.304'/%3E%3C/g%3E%3C/svg%3E");
+  display: inline-block;
+  position: relative;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+	top: 3px;
+	margin-left: -1px;
+	margin-right: 1px;
+	content: '';
+	background-size: 16px 16px;
+}
+
+.like-button{
+  margin-right: 10px;
+  margin-top: 6px;
 }
