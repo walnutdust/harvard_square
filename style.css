@@ -54,6 +54,7 @@ header{
   width: 1400px;
   margin: 0 auto;
   font-size: 0.95em;
+  max-width: 90%;
 }
 
 .column{
@@ -121,6 +122,10 @@ header{
   width: 1400px;
 }
 
+#site-navigation{
+  max-width: 90%;
+}
+
 .main-navigation li::before{
   content: "\002F";
   margin-right: -3px;
@@ -164,6 +169,7 @@ header{
   margin: 0 auto;
   background-color: #fff;
   border-radius: 3px;
+  max-width: 90%;
 }
 
 .post-title{
