@@ -1,6 +1,7 @@
 # Harvard Square
 
 Original: https://betweenthelines451.wordpress.com/2018/12/28/harvard-square-by-andre-aciman-5-stars/
+
 Mock-up with added functionality: https://walnutdust.github.io/harvard_square/
 
 This project was to create a mock-up of a friend's blog post with the added functionality of embedding additional elaboration where needed for readers who might be more interested.
