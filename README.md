@@ -1,5 +1,7 @@
 # Harvard Square
 
+Garett Tok, 2019
+
 Original: https://betweenthelines451.wordpress.com/2018/12/28/harvard-square-by-andre-aciman-5-stars/
 
 Mock-up with added functionality: https://walnutdust.github.io/harvard_square/
